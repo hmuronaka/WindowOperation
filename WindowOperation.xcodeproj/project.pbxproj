@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5AFC0316ED5A1600EEC696 /* WindowsOperationClientProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AFC0216ED5A1600EEC696 /* WindowsOperationClientProtocol.m */; };
+		9A5AFC0616ED5C7F00EEC696 /* WindowsOperationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AFC0516ED5C7F00EEC696 /* WindowsOperationCommand.m */; };
+		9A5AFC0D16EEAD8100EEC696 /* WindowOperationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AFC0B16EEAD8000EEC696 /* WindowOperationListViewController.m */; };
+		9A5AFC0E16EEAD8100EEC696 /* WindowOperationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5AFC0C16EEAD8000EEC696 /* WindowOperationListViewController.xib */; };
+		9A5AFC1316EED71F00EEC696 /* CommandMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AFC1216EED71F00EEC696 /* CommandMaker.m */; };
+		9A5AFC1616EF76C800EEC696 /* RequestTokenizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AFC1516EF76C800EEC696 /* RequestTokenizerTests.m */; };
+		9A5CCABE16EFFEC2000CAD60 /* ResponseMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5CCABD16EFFEC2000CAD60 /* ResponseMakerTests.m */; };
+		9A5CCAC216F000DC000CAD60 /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5CCAC116F000DC000CAD60 /* StringUtils.m */; };
+		9A5CCAC516F0062D000CAD60 /* StringUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5CCAC416F0062D000CAD60 /* StringUtilsTests.m */; };
+		9AA1B14117081422002133BF /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AA1B14017081422002133BF /* settings.plist */; };
+		9AC561AC16F3F09700BC1892 /* LatestUseFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC561AA16F3F09700BC1892 /* LatestUseFileViewController.m */; };
+		9AC561AD16F3F09700BC1892 /* LatestUseFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC561AB16F3F09700BC1892 /* LatestUseFileViewController.xib */; };
+		9AE9AC9B16FE84BF003DA949 /* QueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9AC9A16FE84BF003DA949 /* QueueTest.m */; };
 		D6AC362616DA6E6600D68CEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AC362516DA6E6600D68CEE /* UIKit.framework */; };
 		D6AC362816DA6E6600D68CEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AC362716DA6E6600D68CEE /* Foundation.framework */; };
 		D6AC362A16DA6E6600D68CEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AC362916DA6E6600D68CEE /* CoreGraphics.framework */; };
@@ -23,6 +36,8 @@
 		D6AC364C16DA6E6600D68CEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AC362716DA6E6600D68CEE /* Foundation.framework */; };
 		D6AC365416DA6E6600D68CEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6AC365216DA6E6600D68CEE /* InfoPlist.strings */; };
 		D6AC365716DA6E6600D68CEE /* WindowOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AC365616DA6E6600D68CEE /* WindowOperationTests.m */; };
+		D6AC366416DA715A00D68CEE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AC366316DA715A00D68CEE /* CoreFoundation.framework */; };
+		D6F0E1BC16ECC1EC00B88A36 /* CommandTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0E1BB16ECC1EC00B88A36 /* CommandTokenizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +52,31 @@
 
 /* Begin PBXFileReference section */
 		9A5AFC0116ED5A1600EEC696 /* WindowsOperationClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsOperationClientProtocol.h; sourceTree = "<group>"; };
+		9A5AFC0216ED5A1600EEC696 /* WindowsOperationClientProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowsOperationClientProtocol.m; sourceTree = "<group>"; };
+		9A5AFC0416ED5C7F00EEC696 /* WindowsOperationCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsOperationCommand.h; sourceTree = "<group>"; };
+		9A5AFC0516ED5C7F00EEC696 /* WindowsOperationCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowsOperationCommand.m; sourceTree = "<group>"; };
+		9A5AFC0A16EEAD8000EEC696 /* WindowOperationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowOperationListViewController.h; sourceTree = "<group>"; };
+		9A5AFC0B16EEAD8000EEC696 /* WindowOperationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowOperationListViewController.m; sourceTree = "<group>"; };
+		9A5AFC0C16EEAD8000EEC696 /* WindowOperationListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowOperationListViewController.xib; sourceTree = "<group>"; };
+		9A5AFC1116EED71E00EEC696 /* CommandMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandMaker.h; sourceTree = "<group>"; };
+		9A5AFC1216EED71F00EEC696 /* CommandMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandMaker.m; sourceTree = "<group>"; };
+		9A5AFC1416EF76C800EEC696 /* RequestTokenizerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTokenizerTests.h; sourceTree = "<group>"; };
+		9A5AFC1516EF76C800EEC696 /* RequestTokenizerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTokenizerTests.m; sourceTree = "<group>"; };
+		9A5CCABC16EFFEC2000CAD60 /* ResponseMakerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseMakerTests.h; sourceTree = "<group>"; };
+		9A5CCABD16EFFEC2000CAD60 /* ResponseMakerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseMakerTests.m; sourceTree = "<group>"; };
+		9A5CCAC016F000DC000CAD60 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		9A5CCAC116F000DC000CAD60 /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
+		9A5CCAC316F0062D000CAD60 /* StringUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtilsTests.h; sourceTree = "<group>"; };
+		9A5CCAC416F0062D000CAD60 /* StringUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtilsTests.m; sourceTree = "<group>"; };
+		9AA1B14017081422002133BF /* settings.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = settings.plist; sourceTree = "<group>"; };
+		9AC561A916F3F09700BC1892 /* LatestUseFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatestUseFileViewController.h; sourceTree = "<group>"; };
+		9AC561AA16F3F09700BC1892 /* LatestUseFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatestUseFileViewController.m; sourceTree = "<group>"; };
+		9AC561AB16F3F09700BC1892 /* LatestUseFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LatestUseFileViewController.xib; sourceTree = "<group>"; };
+		9AE9AC9916FE84BF003DA949 /* QueueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueTest.h; sourceTree = "<group>"; };
+		9AE9AC9A16FE84BF003DA949 /* QueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueueTest.m; sourceTree = "<group>"; };
+		D6327D3016DBBA1C00B715A7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D6327D3116DBBA1C00B715A7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6327D3216DBBA1C00B715A7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6AC362216DA6E6600D68CEE /* WindowOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowOperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AC362516DA6E6600D68CEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D6AC362716DA6E6600D68CEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +99,9 @@
 		D6AC365316DA6E6600D68CEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6AC365516DA6E6600D68CEE /* WindowOperationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowOperationTests.h; sourceTree = "<group>"; };
 		D6AC365616DA6E6600D68CEE /* WindowOperationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowOperationTests.m; sourceTree = "<group>"; };
+		D6AC366316DA715A00D68CEE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D6F0E1BA16ECC1EC00B88A36 /* CommandTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandTokenizer.h; sourceTree = "<group>"; };
+		D6F0E1BB16ECC1EC00B88A36 /* CommandTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandTokenizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6AC366416DA715A00D68CEE /* CoreFoundation.framework in Frameworks */,
 				D6AC362616DA6E6600D68CEE /* UIKit.framework in Frameworks */,
 				D6AC362816DA6E6600D68CEE /* Foundation.framework in Frameworks */,
 				D6AC362A16DA6E6600D68CEE /* CoreGraphics.framework in Frameworks */,
@@ -85,9 +129,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AA1B14217081786002133BF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9AA1B14017081422002133BF /* settings.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		D6AC361916DA6E6600D68CEE = {
 			isa = PBXGroup;
 			children = (
+				D6AC366316DA715A00D68CEE /* CoreFoundation.framework */,
 				D6AC362B16DA6E6600D68CEE /* WindowOperation */,
 				D6AC364F16DA6E6600D68CEE /* WindowOperationTests */,
 				D6AC362416DA6E6600D68CEE /* Frameworks */,
@@ -118,6 +171,23 @@
 		D6AC362B16DA6E6600D68CEE /* WindowOperation */ = {
 			isa = PBXGroup;
 			children = (
+				9AA1B14217081786002133BF /* Resource */,
+				9A5AFC1116EED71E00EEC696 /* CommandMaker.h */,
+				9A5AFC1216EED71F00EEC696 /* CommandMaker.m */,
+				D6F0E1BA16ECC1EC00B88A36 /* CommandTokenizer.h */,
+				D6F0E1BB16ECC1EC00B88A36 /* CommandTokenizer.m */,
+				9A5AFC0A16EEAD8000EEC696 /* WindowOperationListViewController.h */,
+				9A5AFC0B16EEAD8000EEC696 /* WindowOperationListViewController.m */,
+				9A5AFC0C16EEAD8000EEC696 /* WindowOperationListViewController.xib */,
+				9AC561A916F3F09700BC1892 /* LatestUseFileViewController.h */,
+				9AC561AA16F3F09700BC1892 /* LatestUseFileViewController.m */,
+				9AC561AB16F3F09700BC1892 /* LatestUseFileViewController.xib */,
+				9A5AFC0116ED5A1600EEC696 /* WindowsOperationClientProtocol.h */,
+				9A5AFC0216ED5A1600EEC696 /* WindowsOperationClientProtocol.m */,
+				9A5AFC0416ED5C7F00EEC696 /* WindowsOperationCommand.h */,
+				9A5AFC0516ED5C7F00EEC696 /* WindowsOperationCommand.m */,
+				9A5CCAC016F000DC000CAD60 /* StringUtils.h */,
+				9A5CCAC116F000DC000CAD60 /* StringUtils.m */,
 				D6AC363416DA6E6600D68CEE /* AppDelegate.h */,
 				D6AC363516DA6E6600D68CEE /* AppDelegate.m */,
 				D6AC363D16DA6E6600D68CEE /* ViewController.h */,
@@ -145,9 +215,17 @@
 		D6AC364F16DA6E6600D68CEE /* WindowOperationTests */ = {
 			isa = PBXGroup;
 			children = (
+				9AE9AC9916FE84BF003DA949 /* QueueTest.h */,
+				9AE9AC9A16FE84BF003DA949 /* QueueTest.m */,
 				D6AC365516DA6E6600D68CEE /* WindowOperationTests.h */,
 				D6AC365616DA6E6600D68CEE /* WindowOperationTests.m */,
 				D6AC365016DA6E6600D68CEE /* Supporting Files */,
+				9A5AFC1416EF76C800EEC696 /* RequestTokenizerTests.h */,
+				9A5AFC1516EF76C800EEC696 /* RequestTokenizerTests.m */,
+				9A5CCABC16EFFEC2000CAD60 /* ResponseMakerTests.h */,
+				9A5CCABD16EFFEC2000CAD60 /* ResponseMakerTests.m */,
+				9A5CCAC316F0062D000CAD60 /* StringUtilsTests.h */,
+				9A5CCAC416F0062D000CAD60 /* StringUtilsTests.m */,
 			);
 			path = WindowOperationTests;
 			sourceTree = "<group>";
@@ -215,6 +293,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = D6AC361916DA6E6600D68CEE;
 			productRefGroup = D6AC362316DA6E6600D68CEE /* Products */;
@@ -237,6 +316,9 @@
 				D6AC363A16DA6E6600D68CEE /* Default@2x.png in Resources */,
 				D6AC363C16DA6E6600D68CEE /* Default-568h@2x.png in Resources */,
 				D6AC364216DA6E6600D68CEE /* ViewController.xib in Resources */,
+				9A5AFC0E16EEAD8100EEC696 /* WindowOperationListViewController.xib in Resources */,
+				9AC561AD16F3F09700BC1892 /* LatestUseFileViewController.xib in Resources */,
+				9AA1B14117081422002133BF /* settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +356,13 @@
 				D6AC363216DA6E6600D68CEE /* main.m in Sources */,
 				D6AC363616DA6E6600D68CEE /* AppDelegate.m in Sources */,
 				D6AC363F16DA6E6600D68CEE /* ViewController.m in Sources */,
+				D6F0E1BC16ECC1EC00B88A36 /* CommandTokenizer.m in Sources */,
+				9A5AFC0316ED5A1600EEC696 /* WindowsOperationClientProtocol.m in Sources */,
+				9A5AFC0616ED5C7F00EEC696 /* WindowsOperationCommand.m in Sources */,
+				9A5AFC0D16EEAD8100EEC696 /* WindowOperationListViewController.m in Sources */,
+				9A5AFC1316EED71F00EEC696 /* CommandMaker.m in Sources */,
+				9A5CCAC216F000DC000CAD60 /* StringUtils.m in Sources */,
+				9AC561AC16F3F09700BC1892 /* LatestUseFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +371,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6AC365716DA6E6600D68CEE /* WindowOperationTests.m in Sources */,
+				9A5AFC1616EF76C800EEC696 /* RequestTokenizerTests.m in Sources */,
+				9A5CCABE16EFFEC2000CAD60 /* ResponseMakerTests.m in Sources */,
+				9A5CCAC516F0062D000CAD60 /* StringUtilsTests.m in Sources */,
+				9AE9AC9B16FE84BF003DA949 /* QueueTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +393,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D6AC362F16DA6E6600D68CEE /* en */,
+				D6327D3116DBBA1C00B715A7 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -308,6 +402,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D6AC364116DA6E6600D68CEE /* en */,
+				D6327D3016DBBA1C00B715A7 /* ja */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -316,6 +411,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D6AC365316DA6E6600D68CEE /* en */,
+				D6327D3216DBBA1C00B715A7 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -348,7 +444,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -372,7 +468,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -385,6 +481,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WindowOperation/WindowOperation-Prefix.pch";
 				INFOPLIST_FILE = "WindowOperation/WindowOperation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,6 +493,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WindowOperation/WindowOperation-Prefix.pch";
 				INFOPLIST_FILE = "WindowOperation/WindowOperation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,6 +552,7 @@
 				D6AC365C16DA6E6600D68CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6AC365D16DA6E6600D68CEE /* Build configuration list for PBXNativeTarget "WindowOperationTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +561,7 @@
 				D6AC365F16DA6E6600D68CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
