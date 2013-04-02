@@ -9,15 +9,50 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "WindowOperationListViewController.h"
+#import "LatestUseFileViewController.h"
+#import "WindowsOperationClientProtocol.h"
+
+@interface AppDelegate()
+
+@property(nonatomic, strong) WindowsOperationClientProtocol* protocol;
+
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.protocol = [[WindowsOperationClientProtocol alloc] init];
+    
+    WindowOperationListViewController* controller = [[WindowOperationListViewController alloc] initWithNibName:@"WindowOperationListViewController" bundle:nil];
+    controller.protocol = self.protocol;
+    controller.title = @"Window";
+    
+    LatestUseFileViewController* controller2 = [[LatestUseFileViewController alloc]
+                                                initWithNibName:@"LatestUseFileViewController" bundle:nil];
+    controller2.protocol = self.protocol;
+    controller2.title = @"Files";
+
+    
+    ViewController* settingViewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    settingViewController.protocol = self.protocol;
+    settingViewController.title = @"Setting";
+    
+    
+    UITabBarController* tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:[NSArray arrayWithObjects:
+                                          controller,
+                                          controller2,
+                                          settingViewController,
+                                          nil]];
+
+    settingViewController.hidesBottomBarWhenPushed = YES;
+    [tabBarController setSelectedIndex:2];
+    
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    [self.window setRootViewController:tabBarController];
     [self.window makeKeyAndVisible];
     return YES;
 }
