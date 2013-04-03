@@ -122,6 +122,7 @@ static void MyClassSocketReceivedCallback(CFSocketRef socket, CFSocketCallBackTy
 
 -(BOOL)stop {
     CFRunLoopRemoveSource(CFRunLoopGetCurrent(), self.source, kCFRunLoopCommonModes);
+    CFSocketInvalidate(self.udpClient);
     CFRelease(self.udpClient);
     CFRelease(self.source);
     self.udpClient = nil;

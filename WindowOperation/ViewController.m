@@ -39,10 +39,12 @@
     if( !self.protocol.isRunning )
     {
         [self start];
+        [self.connectButton setTitle:@"STOP" forState:UIControlStateNormal];
     }
     else
     {
         [self stop];
+        [self.connectButton setTitle:@"START" forState:UIControlStateNormal];
     }
 }
 

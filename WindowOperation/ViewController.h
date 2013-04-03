@@ -15,6 +15,7 @@
 
 @property IBOutlet UITextField* ipTextField;
 @property IBOutlet UITextField* portTextField;
+@property IBOutlet UIButton* connectButton;
 @property id<ViewControllerDelegate> delegate;
 @property WindowsOperationClientProtocol* protocol;
 
